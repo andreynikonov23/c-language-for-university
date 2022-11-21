@@ -14,7 +14,7 @@ int main(){
     int arr[10];
     //Генерация 10 рандомных чисел
     for(int i=0; i<10; i++){
-        int randomNum = 1 + rand()%10; //Рандомнон число от 1 до 10
+        int randomNum = 1 + rand()%9; //Рандомнон число от 1 до 10
         printf("%d\n", randomNum); //Вывод числа на экран
         arr[i] = randomNum; //Сохранение числа в массив
     }
